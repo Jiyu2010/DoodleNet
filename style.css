@@ -1,0 +1,31 @@
+body{
+    background-color:aliceblue ;
+}
+h1{
+    color: black;
+    background-color: plum;
+}
+#show_sketch
+{
+    float:right;
+
+}
+canvas{
+    border: 5px solid white;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top: 50px;
+    animation-iteration-count:infinite;
+
+}
+@keyframes example{
+    from{box-shadow:3px 3px 38px plum ;}
+to{box-shadow: 3px 3px 38px powderblue;}
+}
+
+
+p{
+    padding-top: 10px;
+    font-size: 25px;
+}
